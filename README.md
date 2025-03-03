@@ -4,7 +4,7 @@ This repository contains my data science projects focused on **predictive modeli
 
 ## 🚀 Projects Included  
 1️⃣ **Customer Churn Prediction** (Completed)  
-2️⃣ **House Price Prediction** (Coming Soon)  
+2️⃣ **House Price Prediction** (Completed)  
 3️⃣ **Fraud Detection in Financial Transactions** (Coming Soon)  
 
 ---
@@ -33,11 +33,33 @@ Predict whether customers will stop using a service based on their usage pattern
 
 ---
 
-## 🔜 Upcoming Projects  
+## 📌 Project 2: House Price Prediction  
 
-### **🏠 House Price Prediction**  
-📌 **Objective:** Develop a regression model to estimate house prices based on property features.  
-📌 **Tech Stack:** Python, Scikit-learn, XGBoost, LightGBM  
+**Objective:**  
+Developed a machine learning model to predict house prices based on key property features such as **square footage, number of rooms, location, and renovation history**.  
+
+**Dataset:**  
+[House Sales in King County, USA](https://www.kaggle.com/harlfoxem/housesalesprediction)  
+
+**Tech Stack:**  
+- Python, Pandas, NumPy  
+- Scikit-learn, XGBoost  
+- Matplotlib, Seaborn  
+
+**Key Steps:**  
+✔ **Data Preprocessing** – Removed irrelevant columns, handled missing values, and scaled numerical features.  
+✔ **Model Training** – Implemented **Linear Regression, Decision Tree, Random Forest, and XGBoost**.  
+✔ **Evaluation** – Compared models using **RMSE, MAE, and R² score**.  
+✔ **Feature Importance Analysis** – Identified key drivers of house prices.  
+
+**Business Impact:**  
+🏡 Helps **real estate agencies & sellers** set competitive prices based on data.  
+📊 Assists **homebuyers & investors** in making informed purchasing decisions.  
+🏦 Improves **mortgage risk assessments** for financial institutions.  
+
+---
+
+## 🔜 Upcoming Project  
 
 ### **💳 Fraud Detection in Financial Transactions**  
 📌 **Objective:** Identify fraudulent transactions using classification and anomaly detection techniques.  
@@ -48,4 +70,3 @@ Predict whether customers will stop using a service based on their usage pattern
 ## 📢 Stay Updated  
 🔹 **More projects will be added soon!**  
 🔹 **Star ⭐ this repo** to follow updates.  
-
