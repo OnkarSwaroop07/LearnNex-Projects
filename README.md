@@ -5,7 +5,7 @@ This repository contains my data science projects focused on **predictive modeli
 ## 🚀 Projects Included  
 1️⃣ **Customer Churn Prediction** (Completed)  
 2️⃣ **House Price Prediction** (Completed)  
-3️⃣ **Fraud Detection in Financial Transactions** (Coming Soon)  
+3️⃣ **Fraud Detection in Financial Transactions** (Completed)  
 
 ---
 
@@ -59,11 +59,29 @@ Developed a machine learning model to predict house prices based on key property
 
 ---
 
-## 🔜 Upcoming Project  
+## 📌 Project 3: Fraud Detection in Financial Transactions  
 
-### **💳 Fraud Detection in Financial Transactions**  
-📌 **Objective:** Identify fraudulent transactions using classification and anomaly detection techniques.  
-📌 **Tech Stack:** Python, Scikit-learn, Imbalanced-learn, Isolation Forest  
+**Objective:**  
+Developed a **machine learning model** to identify fraudulent transactions based on key financial attributes like **transaction amount, merchant category, location, and time**.  
+
+**Dataset:**  
+[Credit Card Transactions Fraud Detection Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection)  
+
+**Tech Stack:**  
+- Python, Pandas, NumPy  
+- Scikit-learn, XGBoost, Random Forest  
+- Matplotlib, Seaborn  
+
+**Key Steps:**  
+✔ **Data Preprocessing** – Cleaned missing values, encoded categorical variables, and scaled numerical features.  
+✔ **Model Training** – Implemented **Logistic Regression, Decision Tree, Random Forest, and XGBoost**.  
+✔ **Evaluation** – Compared models using **Accuracy, Precision, Recall, F1-score, and AUC-ROC**.  
+✔ **Feature Importance Analysis** – Identified key fraud indicators to enhance model interpretability.  
+
+**Business Impact:**  
+💳 Helps **banks and financial institutions** detect fraud in real-time, reducing losses.  
+🛍️ Protects **e-commerce platforms** by preventing unauthorized transactions.  
+🔒 Enhances **payment security** for businesses and consumers.  
 
 ---
 
